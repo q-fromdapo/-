@@ -1,0 +1,53 @@
+.nav {
+  position: absolute;
+  right: 0px;
+  margin-top: 12px;
+  font-family: arial,sans-serif;
+  cursor: pointer;
+  line-height: 24px;
+  vertical-align: middle;
+  transition: box-shadow 250ms;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 10px 15px; 
+  border-radius: 5px; 
+  margin-right: 10px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-left: auto;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 0; 
+}
+
+.line {
+  border-bottom: 1px solid #0a0101;
+  margin-top: 36px;
+}
+
+.img-container {
+  margin-top: 100px;
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+.img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover; 
+}
